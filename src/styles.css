@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  margin: 0!important;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  overflow-y: scroll;
+  background: white;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E9C6B5;
+  border-radius: 5px;
+}
+html {
+  scroll-behavior: smooth!important;
+
+  overflow-scrolling: touch;
+}
